@@ -1,0 +1,27 @@
+{
+   "intentPass": 3, 
+   "timePass": 30,
+   "intentBots": 20,
+   "tokenKey": "AlpTimeSys24",
+   "connection": {
+      "user": "sa",
+      "password": "Rootpass1",
+      "server": "syswebservice",
+      "database": "CORES"
+   },
+   "business": [
+      {
+         "id": 1,
+         "name": "Syscompsa",
+         "connection": {
+            "user": "sa",
+            "password": "Rootpass1",
+            "server": "syswebservice",
+            "database": "data01"
+         },
+         "cantUsers": 50,
+         "cantConnection": 10,
+         "tokenTime": 90
+      }
+   ]
+}

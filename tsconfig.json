@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",                     /* Especifica la versión de JavaScript a la que se compilará tu código */
+    "module": "commonjs",                /* Especifica el sistema de módulos que se utilizará (Node.js utiliza CommonJS) */
+    "outDir": "./dist",                  /* Directorio de salida donde se colocarán los archivos JavaScript compilados */
+    "strict": true,                      /* Habilita todas las opciones estrictas de TypeScript para una mejor verificación de tipos */
+    "esModuleInterop": true,             /* Habilita la interoperabilidad de ES Modules (permite importar módulos de CommonJS como ES Modules) */
+    "forceConsistentCasingInFileNames": true /* Obliga a que los nombres de archivo tengan la misma capitalización que en los import/require */
+  },
+  "include": ["./**/*.ts"],            /* Patrón de inclusión para los archivos TypeScript que se compilarán */
+  "exclude": ["./node_modules"]            /* Patrón de exclusión para los directorios que no deben ser compilados */
+}
